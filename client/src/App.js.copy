@@ -1,0 +1,137 @@
+import logo from './logo.svg';
+import './App.css';
+import Signup from './signUp';
+import Home from  './Home'
+import Test from './test'
+import Checkout from './Checkout'
+import ChristmasTrees from './ChristmasTrees';
+import ChristmasLights from './ChristmasLights';
+import ChristmasDecorations from './ChristmasDecorations';
+import Dashboard from './Dashboard';
+import '@fortawesome/fontawesome-free/css/all.css';
+import {BrowserRouter as Router, Link,Routes,Route, useLocation} from 'react-router-dom'
+import { CartProvider } from './Cartcontext';
+function App() {
+  
+  return (
+   <CartProvider>
+    <Router>
+    <div className="App">
+
+    <Link to='/dashboard' id='frontTag'>Home</Link>
+   <Link to='/login'>Account</Link>
+  
+   <Routes>
+      <Route path='/login' element={<Signup/>}/>
+      <Route path='/' element={<Home/>}/>
+      <Route path="/dashboard" element={<Dashboard />}/>
+      <Route path="/christmas-trees" element={<ChristmasTrees />} />
+        <Route path="/christmas-lights" element={<ChristmasLights />} />
+        <Route path="/christmas-decorations" element={<ChristmasDecorations />} />
+         <Route path='/checkout' element={<Checkout/>}/>
+      </Routes>
+    </div>
+   
+    </Router>
+    </CartProvider>
+  );
+}
+
+export default App;
+
+
+
+
+
+
+
+
+//////////////////////2nd VERSION HEREEEEEEEEEEEEE
+
+
+import logo from './logo.svg';
+import './App.css';
+import Signup from './signUp';
+import Home from  './Home'
+import Test from './test'
+import Checkout from './Checkout'
+import ChristmasTrees from './ChristmasTrees';
+import ChristmasLights from './ChristmasLights';
+import ChristmasDecorations from './ChristmasDecorations';
+import Dashboard from './Dashboard';
+import '@fortawesome/fontawesome-free/css/all.css';
+import {BrowserRouter as Router, Link,Routes,Route, useLocation} from 'react-router-dom'
+import { CartProvider } from './Cartcontext';
+function App() {
+  
+  return (
+   <CartProvider>
+    <Router>
+    <div className="App">
+
+    <Link to='/dashboard' id='frontTag'>Home</Link>
+   <Link to='/login'>Account</Link>
+  
+   <Routes>
+      <Route path='/login' element={<Signup/>}/>
+      <Route path='/' element={<Home/>}/>
+      <Route path="/dashboard" element={<Dashboard />}/>
+      <Route path="/christmas-trees" element={<ChristmasTrees />} />
+        <Route path="/christmas-lights" element={<ChristmasLights />} />
+        <Route path="/christmas-decorations" element={<ChristmasDecorations />} />
+         <Route path='/checkout' element={<Checkout/>}/>
+      </Routes>
+    </div>
+   
+    </Router>
+    </CartProvider>
+  );
+}
+
+export default App;
+
+
+////////////////////////////////////////////////**************************************
+import logo from './logo.svg';
+import './App.css';
+import Signup from './signUp';
+import Home from  './Home'
+import Test from './test'
+import Checkout from './Checkout'
+import ChristmasTrees from './ChristmasTrees';
+import ChristmasLights from './ChristmasLights';
+import ChristmasDecorations from './ChristmasDecorations';
+import Dashboard from './Dashboard';
+import '@fortawesome/fontawesome-free/css/all.css';
+import {BrowserRouter as Router, Link,Routes,Route, useLocation} from 'react-router-dom'
+import { CartProvider } from './Cartcontext';
+function App() {
+ 
+
+  return (
+   <CartProvider>
+    <Router>
+   
+
+    <div className="App">
+
+    <Link to='/dashboard' id='frontTag'>Home</Link>
+   <Link to='/login'>Account</Link>
+  
+   <Routes>
+      <Route path='/login' element={<Signup/>}/>
+      <Route path='/' element={<Home/>}/>
+      <Route path="/dashboard" element={<Dashboard />}/>
+      <Route path="/christmas-trees" element={<ChristmasTrees />} />
+        <Route path="/christmas-lights" element={<ChristmasLights />} />
+        <Route path="/christmas-decorations" element={<ChristmasDecorations />} />
+         <Route path='/checkout' element={<Checkout/>}/>
+      </Routes>
+    </div>
+   
+    </Router>
+    </CartProvider>
+  );
+}
+
+export default App;

@@ -1,0 +1,4 @@
+where you left 
+off is copying the 
+backend app.js and installing
+ cors for the backend.

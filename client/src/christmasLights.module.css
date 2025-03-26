@@ -1,0 +1,207 @@
+
+.div{
+
+    text-align:center;
+    width: 65vw;
+    margin: 0 auto; 
+    height: 90vh;
+}
+
+
+
+.wrapper{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+
+.box{
+    border:solid 3px;
+    height: 370px;
+}
+
+
+
+.paragraph{
+    font-size: .8125rem;
+}
+
+
+.boxHeader{
+    margin-top:0px;
+    margin-bottom:8px;
+    height:25px;
+    background-color: red;
+    color:white;
+    padding-bottom: 5px;
+}
+
+.paragraphSeven{
+    font-size: .8125rem;
+    margin: 0;
+}
+
+
+.spanOne{
+    position: relative;
+    top:1px;
+}
+
+
+.buttonTwo{
+    position: relative;
+    bottom:18px;
+}
+.spanTwo{
+    position: relative;
+    bottom:16px;
+}
+
+
+.spanThree{
+    position:relative;
+    bottom:2px;
+
+}
+
+.buttonThree{
+    position:relative;
+    bottom:2px;
+}
+
+
+.spanFour{
+    position:relative;
+    bottom:15px;
+}
+
+.buttonFour{
+    position:relative;
+    bottom:15px;
+}
+
+.spanFive{
+    position:relative;
+    bottom:15px;
+}
+
+.buttonFive{
+    position:relative;
+    bottom:15px;
+}
+
+
+.spanSeven{
+position:relative;
+top:12px;
+}
+
+.buttonSeven{
+    position:relative;
+    top:11px;
+}
+
+
+.spanSeven{
+    position:relative;
+    top:12px;
+    }
+    
+    .buttonSeven{
+        position:relative;
+        top:11px;
+    }
+
+.spanNine{
+        position:relative;
+        bottom:15px;
+}
+
+
+.buttonNine{
+    position:relative;
+    bottom:15px;
+}
+
+.Bag{
+    width:20px;
+    height:20px;
+}
+
+
+.buttonTen{
+    position:relative;
+    bottom:15px;
+}
+
+
+
+.bottomRow{
+    position:relative;
+    bottom:15px;
+}
+
+
+#bag{
+    float: right;
+    position: relative;
+    bottom: 65px;
+}
+
+.buttonBag {
+    float:right;
+    position: relative;
+    bottom: 65px;
+}
+
+
+.Bag{
+    width:30px;
+    height:30px;
+    position: relative;
+    bottom: 40px;
+}
+
+.frontP{
+    border:solid 2px black;
+    width:1200px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

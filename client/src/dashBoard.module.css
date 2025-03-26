@@ -1,0 +1,102 @@
+.christmas{
+    color:white;
+    background-color:red;
+}
+
+
+.gif{
+    text-align: center;
+}
+
+.santa{
+    border:solid 3px orange;
+    text-align: center;
+}
+
+
+.title{
+    padding-right:40px;
+    color:white;
+    font-family:cursive;
+    font-weight: 600;
+    font-size: xxx-large;
+    position: relative;
+    bottom: .8rem;
+}
+
+.grid{
+    border: solid 2px blue;
+   display:grid;
+   grid-template-columns: repeat(3,1fr);
+   height: 50vh;
+   background-color: white;
+}
+
+
+.grid a{
+    text-align: center;
+    border: solid 2px blue;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+ .tree{
+background-image: url(./christmas-tree.jpg);
+}
+
+
+.lights{
+    background-image: url(./christmas-lights.jpg); 
+}
+
+
+.decorations{
+    background-image: url(./christmas-decorations.jpeg); 
+}
+
+
+div a:hover{
+    scale:1.1;
+}
+
+
+.boxTag p{
+display: inline;
+}
+
+.CT{
+    padding-right:4rem;
+    padding-left: 11rem;
+    color:white;
+    font-size: larger;
+    font-family: cursive;
+}
+
+
+.CL{
+    padding-left: 19rem;
+    color:white;
+    font-size: larger;
+    font-family: cursive;
+}
+
+.CD{
+    padding-left: 20rem;
+    color:white;
+    font-size: larger;
+    font-family: cursive;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

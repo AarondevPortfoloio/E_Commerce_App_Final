@@ -1,0 +1,166 @@
+.div{
+
+    text-align:center;
+    width: 65vw;
+    margin: 0 auto; 
+    height: 90vh;
+}
+
+
+
+.wrapper{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+
+.box{
+    border:solid 3px;
+    height: 370px;
+}
+
+
+
+.paragraph{
+    font-size: .8125rem;
+}
+
+
+.boxHeader{
+    margin-top:0px;
+    margin-bottom:8px;
+    height:25px;
+    background-color: red;
+    color:white;
+    padding-bottom: 5px;
+}
+
+.paragraphSeven{
+    font-size: .8125rem;
+    margin: 0;
+}
+
+
+.buttonOne{
+    position:relative;
+    top:15px;
+}
+
+.spanOne{
+    position:relative;
+    top:15px;
+}
+
+
+.buttonTwo{
+    position:relative;
+    bottom:18px;
+}
+
+
+
+
+.buttonThree{
+    position:relative;
+    bottom:17px;
+}
+
+
+
+
+
+.buttonFour{
+    position:relative;
+    bottom:4px;
+}
+
+
+
+
+.buttonFive{
+    position:relative;
+    bottom:17px;
+}
+
+
+
+
+.buttonSix{
+    position:relative;
+    bottom:17px;
+}
+
+
+
+.buttonSeven{
+    position:relative;
+    top:5px;
+}
+
+
+
+
+.buttonEight{
+    position:relative;
+    bottom: 20px;
+}
+
+
+.buttonNine{
+    position:relative;
+    bottom: 20px;
+}
+
+
+.buttonLf{
+    position:relative;
+    bottom: 6px;
+}
+
+
+.buttonLftwo{
+    position:relative;
+    bottom: 19px;
+}
+
+
+.Bag{
+    width:30px;
+    position:relative;
+    bottom:55px;
+}
+
+
+
+
+
+
+#bag{
+    float: right;
+    position: relative;
+    bottom: 65px;
+}
+
+.buttonBag {
+    float:right;
+    position: relative;
+    bottom: 65px;
+}
+
+
+
+
+div#pizza {
+    border: solid 3px;
+    width: 800px;
+}
+
+
+
+.frontP{
+    border:solid 2px black;
+    width:1200px;
+}
+
+
+
+

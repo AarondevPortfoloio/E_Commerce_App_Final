@@ -1,0 +1,121 @@
+
+.div{
+
+    text-align:center;
+    width: 65vw;
+    margin: 0 auto; 
+    height: 90vh;
+}
+
+
+
+.wrapper{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+
+.box{
+    border:solid 3px;
+    height: 370px;
+}
+
+
+
+.paragraph{
+    font-size: .8125rem;
+}
+
+
+.boxHeader{
+    margin-top:0px;
+    margin-bottom:8px;
+    height:25px;
+    background-color: red;
+    color:white;
+    padding-bottom: 5px;
+}
+
+.paragraphSeven{
+    font-size: .8125rem;
+    margin: 0;
+}
+
+
+
+
+.buttonTwo{
+    position: relative;
+   top:10px;
+}
+
+.spanTwo{
+    position:relative;
+    top:11px;
+}
+
+.buttonThree{
+    position: relative;
+    bottom:3px;
+}
+
+.spanThree{
+    position:relative;
+    bottom: 3px;
+}
+
+
+.spanSeven{
+    position:relative;
+    bottom: 1px;
+}
+.buttonEight{
+    position:relative;
+   top:13px;
+}
+.spanEight{
+    position:relative;
+    top: 13px;
+}
+.spanNine{
+    position:relative;
+    bottom: 1px;
+}
+.buttonNine{
+    position:relative;
+    bottom: 1px;
+}
+
+
+
+button:hover{
+cursor: pointer;
+}
+
+
+
+.Bag{
+    width:30px;
+    position:relative;
+    bottom:45px;
+}
+
+#bag{
+    float: right;
+    position: relative;
+    bottom: 65px;
+}
+
+.buttonBag {
+    float:right;
+    position: relative;
+    bottom: 60px;
+}
+
+
+.frontP{
+    border:solid 2px black;
+    width:1200px;
+}
+
+
+
