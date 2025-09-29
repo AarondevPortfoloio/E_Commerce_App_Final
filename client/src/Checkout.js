@@ -349,7 +349,6 @@ first line
     {showDelivery &&(
         <>
     <h1 className={styles.Header}>Checkout</h1>
-    <p>pizzaaaaaa</p>
     <h3>Delivery Options</h3>
     <div className={styles.shipContainer}>Ship</div>
     <br></br>
