@@ -7,7 +7,7 @@ This is a project created to show CRUD (create read, update, delete) cpabilites.
 
 ### How to Run
 
-Open the project directory in your IDE got to terminal and CD client and run npm start and then CD to main folder and then CD to Server and run npm start. This should launch the application on client PORT 3029 and server PORT in 4988.
+Open the project directory in your IDE, go to terminal and CD client and run npm start and then CD to main folder and then CD to Server and run npm start. This should launch the application on client PORT 3029 and server PORT in 4988.
 
 
 ## Dependencies Installation
