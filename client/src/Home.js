@@ -10,7 +10,8 @@ function Home(){
         <p>Welcome Home</p>
 
         {cart.length === 0 ? (
-        <p>Your cart is empty</p>
+        <p>This is a Christmas-themed e-commerce web app built with React and Express, featuring a product grid, shopping cart functionality, and interactive UI elements.
+          This project was created to demonstrate skills in React hooks, state management, and component-based architecture.</p>
       ) : (
         cart.map((item, index) => (
           <div key={index} >
